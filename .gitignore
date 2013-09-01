@@ -1,0 +1,42 @@
+## generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+
+## IDE files to ignore
+nbproject/
+.idea/
+*.tmproj
+
+# eclipse PDT files
+.buildpath
+.project
+.settings
+
+# Configuration files
+/app/config/parameters.ini
+#/app/config/parameters.yml
+
+# Symfony files to ignore
+#/app/bootstrap*
+/app/cache/*
+/app/logs/*
+/app/spool/*
+#/web/uploads/*
+#/web/bundles/
+#/web/css/*
+#/web/images/*
+#/web/js/*
+#/web/media/cache/*
+#/vendor/
+#/build/
+#/bin/
+/composer.phar
+
+# Other
+desktop.ini
+Thumbs.db
+.rsync_cache
+catalog.xml

@@ -1,0 +1,5 @@
+my_poem:
+    resource: "@MyPoemBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
